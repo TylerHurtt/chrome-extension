@@ -1,0 +1,22 @@
+{
+    "manifest_version" : 2,
+    "name" : "TicketTime/LA Live",
+    "version" : "2.0",
+    "description": "A chrome extension that lists all the live music in the area",
+    "browser_action": {
+        "default_icon": {
+            "32": "./assets/ticket_img.png"
+        },
+        "default_popup": "hello.html"
+      },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+            "default": "Ctrl+Shift+L",
+            "mac": "MacCtrl+Shift+L"
+            },
+            "description": "Opens hello.html"
+        }
+    }
+    
+}
